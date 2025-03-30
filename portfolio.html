@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Portfolio - Editkaro.in</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header (same as index.html) -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Editkaro.in</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Portfolio Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Our Portfolio</h1>
+            <p>Explore our diverse range of video editing projects across different categories</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Filter -->
+    <section class="portfolio-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="short-form">Short Form</button>
+                <button class="filter-btn" data-filter="long-form">Long Form</button>
+                <button class="filter-btn" data-filter="gaming">Gaming Videos</button>
+                <button class="filter-btn" data-filter="football">Football Edits</button>
+                <button class="filter-btn" data-filter="ecommerce">eCommerce Ads</button>
+                <button class="filter-btn" data-filter="documentary">Documentary Style</button>
+                <button class="filter-btn" data-filter="color-grading">Color Grading</button>
+                <button class="filter-btn" data-filter="anime">Anime Videos</button>
+                <button class="filter-btn" data-filter="ads">Ads</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio-grid">
+        <div class="container">
+            <div class="portfolio-items">
+                <!-- Short Form Videos -->
+                <div class="portfolio-item" data-category="short-form">
+                    <div class="portfolio-video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/iu66nA88a4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3>Social Media Reel</h3>
+                    <p>Engaging short-form content for Instagram</p>
+                </div>
+                
+                <!-- Long Form Videos -->
+                <div class="portfolio-item" data-category="long-form">
+                    <div class="portfolio-video">
+                        <iframe src="https://www.youtube.com/embed//rOLyWlDpb8Q?si" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <h3>Corporate Documentary</h3>
+                    <p>30-minute brand story for a tech company</p>
+                </div>
+                
+                <!-- Gaming Videos -->
+                <div class="portfolio-item" data-category="gaming">
+                    <div class="portfolio-video">
+                        <iframe src="https://www.youtube.com/embed//3oNB6ZO7AtY?si" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <h3>Gameplay Montage</h3>
+                    <p>Action-packed gaming highlights</p>
+                </div>
+                
+                <!-- Football Edits -->
+                <div class="portfolio-item" data-category="football">
+                    <div class="portfolio-video">
+                        <iframe src="https://www.youtube.com/embed/KLBpr2_W-Js?si" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <h3>Player Highlights</h3>
+                    <p>Compilation of best moments from a season</p>
+                </div>
+                
+                <!-- eCommerce Ads -->
+                <div class="portfolio-item" data-category="ecommerce">
+                    <div class="portfolio-video">
+                        <iframe src="https://www.youtube.com/embed/2aXHIbwHkAw?si" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <h3>Product Advertisement</h3>
+                    <p>Promotional video for an online store</p>
+                </div>
+                
+                <!-- Documentary Style -->
+                <div class="portfolio-item" data-category="documentary">
+                    <div class="portfolio-video">
+                        <iframe src="https://www.youtube.com/embed/35npVaFGHMY?si" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <h3>Travel Documentary</h3>
+                    <p>Exploring cultural heritage sites</p>
+                </div>
+                
+                <!-- Color Grading -->
+                <div class="portfolio-item" data-category="color-grading">
+                    <div class="portfolio-video">
+                        <iframe src="https://www.youtube.com/embed//62CmsM-ClAw?si" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <h3>Cinematic Color Grade</h3>
+                    <p>Before & after color correction</p>
+                </div>
+                
+                <!-- Anime Videos -->
+                <div class="portfolio-item" data-category="anime">
+                    <div class="portfolio-video">
+                        <iframe src="https://www.youtube.com/embed/99KUR-fVqaA?si" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <h3>Anime AMV</h3>
+                    <p>Music video compilation</p>
+                </div>
+                
+                <!-- Ads -->
+                <div class="portfolio-item" data-category="ads">
+                    <div class="portfolio-video">
+                        <iframe src="https://www.youtube.com/embed/b8PUpLsGSN8?si" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <h3>TV Commercial</h3>
+                    <p>30-second brand advertisement</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Elevate Your Video Content?</h2>
+            <p>Let's discuss how we can help you create stunning videos that engage your audience.</p>
+            <a href="contact.html" class="btn">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer (same as index.html) -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Editkaro.in</h3>
+                    <p>Your partner in creating stunning video content and effective social media strategies.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> info@editkaro.in</li>
+                        <li><i class="fas fa-phone"></i> +91 xxxxxxxx</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Delhi, India</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Editkaro.in. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="portfilter.js"></script>
+</body>
+</html>
