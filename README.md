@@ -2,7 +2,7 @@
 
 A fully responsive website for **Edilkaro.in**, a social media marketing and video editing agency. This project includes key features like an email subscription form, portfolio showcase, and contact form with Google Sheets integration.  
 
-🔗 **Live Demo:** https://github.com/RachitKumar74/Majorproject/ 
+🔗 **Github Page:** https://github.com/RachitKumar74/Majorproject/ 
 
 ## **Features**  
 ✔ **Home Page** – Engaging introduction with services overview  
