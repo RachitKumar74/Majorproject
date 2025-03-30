@@ -28,3 +28,5 @@ Edilkaro-website/
 │   ├── js/            # JavaScript files  
 │   ├── images/        # All media assets  
 └── README.md           # Project documentation  
+Deployment
+This site is hosted on GitHub Pages – https://RachitKumar74.github.io//Majorproject/
